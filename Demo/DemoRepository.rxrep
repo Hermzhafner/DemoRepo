@@ -1,0 +1,137 @@
+﻿<repository
+id="fc501283-b202-47cc-8a09-8b5f7bfa4571"
+name="DemoRepository"
+rxversion="7.2">
+	<codegen
+	classname="DemoRepository"
+	namespace="Demo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="14e8a3c3-07a5-4ee7-a9da-14d50d2d9f34"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="909831ae-d73d-4fcb-808a-82d9c961a40c"
+		isrooted="True"
+		name="FormVipApplication"
+		refpath="/form[@controlname='formVipApplication']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="ed34bdec-a1b9-4373-895e-fd5b01554ca1"
+			name="FirstName"
+			refimgid="eadd0f04-1cfc-4a2f-8ed0-dcf09e1ba607"
+			refpath="/form[@controlname='formVipApplication']/text[@controlname='tbFirstName']/text[@accessiblename='First Name:']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/?/?/text[@accessiblename='First Name:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="f334b5d2-676e-4c6d-9fc7-e5629956ac5b"
+			name="LastName"
+			refimgid="c81d9ac9-dce8-4fa3-83bc-8f518032640f"
+			refpath="/form[@controlname='formVipApplication']/text[@controlname='tbLastName']/text[@accessiblename='Last Name:']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/?/?/text[@accessiblename='Last Name:']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="e2099f90-7eb4-4b97-8776-2b89e1038108"
+			name="Movie"
+			refimgid="e7b21f9c-e32e-4ee3-bb1c-a67bcf7ff28a"
+			refpath="/form[@controlname='formVipApplication']/list/list/listitem[@accessiblename='Movie']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']//listitem[@accessiblename='Movie']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="8746acab-9aa8-41e8-bc74-709f48fcccb4"
+			name="RbMale"
+			refimgid="0903d6e0-1471-4ce3-b65a-cf2744fc4f9e"
+			refpath="/form[@controlname='formVipApplication']/container/radiobutton[@controlname='rbMale']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/?/?/radiobutton[@controlname='rbMale']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="711993be-34cf-4b3f-82aa-ce586f624cb0"
+			name="BtAdd"
+			refimgid="34574e50-54ba-489e-aac9-058a1ae64995"
+			refpath="/form[@controlname='formVipApplication']/button[@controlname='btAdd']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/button[@controlname='btAdd']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="e59a942a-5c9d-4cc4-a7e4-195a24222ee0"
+			name="FirstNameRow0"
+			refimgid="19b7c34f-4938-4696-801f-423b88f2a72a"
+			refpath="/form[@controlname='formVipApplication']/table[@controlname='dataGridView1']/row[@accessiblename='Row 0']/cell[@accessiblename='First Name Row 0']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']//cell[@accessiblename='First Name Row 0']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="2e74499f-3c34-4133-b79e-97ccce2f8da5"
+			name="BtClear"
+			refimgid="76953451-9b5b-4efe-b434-f50948ad51f6"
+			refpath="/form[@controlname='formVipApplication']/button[@controlname='btClear']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/button[@controlname='btClear']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="cf673b4e-854e-431e-9afc-dff3e03d1a76"
+			name="Close"
+			refimgid="7f70af57-b738-4283-8ed3-bea9b7ae55c8"
+			refpath="/form[@controlname='formVipApplication']/titlebar/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="5871bd91-9819-4fdc-82e7-70ceffbd3cec"
+			name="Music"
+			refimgid="f9c8d339-3dda-44e7-8cd0-a654e8188444"
+			refpath="/form[@controlname='formVipApplication']/list[@controlname='lbCategory']/list[@accessiblerole='List']/listitem[@accessiblename='Music']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']//listitem[@accessiblename='Music']
+			</item>
+			<basepath>
+				/form[@controlname='formVipApplication']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

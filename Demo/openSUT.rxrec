@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7c4f19b8-2434-4d11-bfef-1e09d00fa394"
+mode="Desktop"
+rxversion="7.2">
+	<name>
+		openSUT
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="openSUT"
+	namespace="Demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\Users\hhafner\Documents\Ranorex\RanorexStudio Projects\PartnerExamples\Angabe\VipApplication.exe
+			</filename>
+			<workingdir>
+				C:\Users\hhafner\Documents\Ranorex\RanorexStudio Projects\PartnerExamples\Angabe
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="fc501283-b202-47cc-8a09-8b5f7bfa4571"
+	name="DemoRepository"
+	relativepath="DemoRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="DemoRepository"
+		namespace="Demo">
+		</codegen>
+		<rootfolder
+		id="14e8a3c3-07a5-4ee7-a9da-14d50d2d9f34"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		openSUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
