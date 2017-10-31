@@ -9,6 +9,7 @@ rxversion="7.2">
 			TracingScreenshotQuality="40"
 			enabletracingscreenshots="True"
 			id="121eaa92-6e6f-4973-8d75-b0b7611a379d"
+			junitreport="True"
 			name="Demo"
 			placescreenshotsinfolder="True"
 			reportcompress="False"
